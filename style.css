@@ -1,0 +1,126 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 900px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+section {
+    border: 1px solid gray;
+	border-radius: 2.5% 2.5% 1% 1%;
+	overflow: hidden;
+}
+
+section {
+    margin-bottom: 100px;
+	margin-top: 2%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+header {
+    width: 100%;
+    background-color: lightgray;
+	text-align: center;
+	padding: 1%
+}
+
+footer {
+    background-color: #838b8b;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+}
+
+aside {
+    background-color: #c1cdcd;
+	border-radius: 5%;
+}
+
+nav {
+    width: 100%;
+    background-color: #ccc;
+}
+
+nav ul li {
+    display: inline;
+}
+
+h1,
+h2 {
+    text-align: center;
+	font-family: Verdana;
+}
+
+form {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 1%;
+}
+
+
+.allContent {
+    width: 60%;
+    float: right; 
+}
+
+.secondMenu {
+    width: 30%;
+    float: left; 
+}
+
+p:first-letter{
+	font-weight: bold;
+}
+
+a:active{
+	color:indianred;
+}
+
+a:hover{
+	background-color:darkkhaki;
+}
+
+input {
+	color:darkgrey
+}
+
+input:focus{
+	border: 2px solid red;
+	color: black;
+}
+
+p::after{
+	content: " End of Paragraph";
+}
+
+section > header{
+	border-radius: 5%;
+	overflow: hidden;
+}
+
+section > aside{
+	margin: 2.5%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+p {
+	font-family: Garamond;
+	padding: 5%;
+}
+
+.card{
+	box-shadow: 5px 5px 5px grey;
+}
+
+footer > p {
+	padding: 0%;
+}
