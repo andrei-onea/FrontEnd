@@ -20,13 +20,14 @@ section {
     margin-bottom: 100px;
 	margin-top: 2%;
 	box-shadow: 5px 5px 5px grey;
+	background: #B2DFDB
 }
 
 header {
     width: 100%;
-    background-color: lightgray;
+    background-color: #B2DFDB;
 	text-align: center;
-	padding: 1%
+/*	padding: 1%*/
 }
 
 footer {
@@ -47,7 +48,8 @@ aside {
 
 nav {
     width: 100%;
-    background-color: #ccc;
+    background-color: #00796B;
+	text-align: center;
 }
 
 nav ul li {
@@ -86,7 +88,7 @@ a:active{
 }
 
 a:hover{
-	background-color:darkkhaki;
+	background-color: #FF5722;
 }
 
 input {
@@ -94,7 +96,7 @@ input {
 }
 
 input:focus{
-	border: 2px solid red;
+	border: 2px solid #FF5722;
 	color: black;
 }
 
@@ -108,19 +110,51 @@ section > header{
 }
 
 section > aside{
-	margin: 2.5%;
+/*	margin: 2.5%;*/
 	box-shadow: 5px 5px 5px grey;
 }
 
 p {
 	font-family: Garamond;
 	padding: 5%;
+	color: #212121;
 }
 
 .card{
 	box-shadow: 5px 5px 5px grey;
+	background: #009688;
+	margin: 2.5%;
 }
 
 footer > p {
-	padding: 0%;
+	padding: 2%;
+}
+
+a {
+	color: #B2DFDB;
+}
+
+article > header{
+	font-size: 150%;
+}
+
+@media only screen and (max-width : 900px)  {
+    #firstSection{
+        width: 99%;
+        height: 100%;
+    }
+
+    #secondSection{
+        width: 99%;
+    }
+
+    .container{
+        width: 600px;
+    }
+    header{
+        font-size: 25px;
+    }
+    footer p{
+        font-size: 16px;
+    }
 }
